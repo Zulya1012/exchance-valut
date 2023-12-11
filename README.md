@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class vsekursi {
   public static void main(String[] args) {
-    System.out.println("Vibrat valyutu dlya konvertasiyi:");
+    System.out.println("Select the currency to convert:");
     System.out.println("1. Dollar");
     System.out.println("2. Evro");
     System.out.println("3. Sterlinq");
@@ -12,7 +12,7 @@ public class vsekursi {
 
       float x = 1.84 F;
       Scanner sc = new Scanner(System.in);
-      System.out.println("vvedite summu konvertasiyi:");
+      System.out.println("Enter the conversion amount:");
       int a = sc.nextInt();
 
       double c = a * x;
@@ -20,16 +20,16 @@ public class vsekursi {
       if (c > 0) {
         System.out.println(c);
       } else if (c < 0) {
-        System.out.println("Error:ne mojet bit denqi v minuse");
+        System.out.println("Error:can't be less than 0");
       } else {
-        System.out.println("Error: ne mojet bit raven 0");
+        System.out.println("Error: can't be  0");
       }
     }
     if (z == 1) {
 
       float b = 1.70 F;
       Scanner sc = new Scanner(System.in);
-      System.out.println("Summa konvertasiyi:");
+      System.out.println("Сonversion amount:");
       int a = s.nextInt();
 
       double c = a * b;
@@ -55,9 +55,9 @@ public class vsekursi {
       if (c > 0) {
         System.out.println(c);
       } else if (c < 0) {
-        System.out.println("Error:Ne mojet bit v minuse");
+        System.out.println("Error:can't be less than 0");
       } else {
-        System.out.println("Error:Ne mojet bit raven 0");
+        System.out.println("Error:can't be 0");
       }
 
     }
